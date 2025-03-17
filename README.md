@@ -1,15 +1,5 @@
 # Vierdaagse scriptje
-Ik heb mijn best gedaan om het programma zo duidelijk mogelijk uit te leggen. Ik twee manieren om het te draaien. De ene is met een .exe, maar ik heb dat niet kunnen testen want ik heb zelf geen windows, dus ik geef dat een 10% kans van slagen. De andere is de manier hoe ik het zelf draai, maar dat is wat ingewikkelder.
-
-## Exe
-Het stappenplan:
-1. Download het script van Github door op de groen knop met "<> Code" te klikken, en dan op download zip.
-2. Pak het zip bestand uit en open de folder met alle bestanden.
-3. Open het .exe bestand in de folder `dist/`
-
-
-## De normale manier
-Het is best simpel, maar het kan best ingewikkeld lijken als je nooit zoiets doet. Ik heb geprobeerd zo duidelijk mogelijk alle stappen uit te leggen!
+Ik heb mijn best gedaan om het programma zo duidelijk mogelijk uit te leggen. Het is best simpel, maar het kan best ingewikkeld lijken als je nooit zoiets doet. Ik heb geprobeerd zo duidelijk mogelijk alle stappen uit te leggen!
 
 Het stappenplan (ik ga er van uit dat je Windows gebruikt):
 1. Download Python https://www.python.org/downloads/windows/
