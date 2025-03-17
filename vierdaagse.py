@@ -7,20 +7,17 @@ from selenium.webdriver.support import expected_conditions as EC
 
 # import required module
 from playsound import playsound
- 
-
 
 playsound('./iphone_notification.mp3')
 options = Options()
 options.add_experimental_option("detach", True)
 
 driver = webdriver.Chrome(options=options)
-
 driver.get("https://www.4daagse.nl/meedoen/ticket-overdragen")
 wait = WebDriverWait(driver, 30);
-element = wait.until(EC.element_to_be_clickable((By.XPATH, "//button[@title='Accepteren']")))
+element = wait.until(EC.element_to_be_clickable((By.XPATH, "//*[@id='CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll']")))
 element.click()
-element = wait.until(EC.element_to_be_clickable((By.LINK_TEXT, "Zoek beschikbare tickets")))
+element = wait.until(EC.element_to_be_clickable((By.LINK_TEXT, "Zoek ticket")))
 element.click()
 
 driver.switch_to.frame("atleta-embed")
@@ -47,4 +44,3 @@ while True:
         if (len(driver.find_elements(By.XPATH, "//span[text()='Vernieuwen']")) != 0):
             element = driver.find_element(By.XPATH, "//span[text()='Vernieuwen']")
             element.click()
-
