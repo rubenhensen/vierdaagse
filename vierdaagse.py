@@ -35,7 +35,7 @@ try:
     
     print("Taal succesvol gewijzigd naar Nederlands")
     
-except NoSuchElementException:
+except Exception as e:
     # Als er geen knop met name="English" is, dan hoeft er niets te gebeuren
     print("De pagina staat niet op Engels of de taalknop heeft een ander formaat")
 
